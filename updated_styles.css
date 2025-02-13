@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1E1A1A; /* Dark Renaissance background */
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #2D2A2A;
+    border-bottom: 4px solid gold;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: gold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+#hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: url('background.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 56px;
+    color: gold;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.8);
+}
+
+#hero p {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.cta {
+    padding: 15px 40px;
+    margin: 20px;
+    background: gold;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(255, 215, 0, 0.5);
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #FFD700;
+    transform: scale(1.1);
+}
+
+section {
+    padding: 80px;
+    text-align: center;
+    background: rgba(30, 30, 30, 0.95);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+h2 {
+    font-size: 40px;
+    color: gold;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.8);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #2D2A2A;
+    color: white;
+    border-top: 4px solid gold;
+    font-size: 18px;
+}
